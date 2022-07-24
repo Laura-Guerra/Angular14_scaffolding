@@ -21,7 +21,11 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    //read json data files
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
